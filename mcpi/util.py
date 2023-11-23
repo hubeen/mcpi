@@ -19,4 +19,4 @@ def _misc_to_bytes(m):
     See `Connection.send` for more details.
     """
 
-    return str(m).encode("UTF-8")
+    return str(m).encode("CP949")
